@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:text="MAIN MENU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/mainMenu"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/mainMenu"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_profile"
+        android:onClick="intentProfile"
+        android:id="@+id/buttonProfile" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonProfile"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_posture"
+        android:onClick="intentPosture"
+        android:id="@+id/buttonPosture"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPosture"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_help"
+        android:onClick="intentHelp"
+        android:id="@+id/buttonHelp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonHelp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_graph"
+        android:onClick="intentGraph"
+        android:id="@+id/buttonGraph"/>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Swim Right</string>
+
+    <string name="button_main">Main Menu</string>
+    <string name="button_profile">Profile</string>
+    <string name="button_posture">Posture</string>
+    <string name="button_help">Help</string>
+    <string name="button_graph">Show Graph</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_doc">Documentation</string>
+    <string name="button_run">Run</string>
+    <string name="button_stats">Statistics</string>
+    <string name="button_cal">Calibrate</string>
+    <string name="button_DA">Daily Average</string>
+    <string name="button_distance">Distance</string>
+    <string name="button_logout">Log Out</string>
+    <string name="button_senddata">Send Data</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
