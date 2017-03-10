@@ -9,6 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.dack.alex.swimright.GraphActivity">
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zText"
+        android:id="@+id/graph"
+        android:layout_marginBottom="80dp"
+        />
+
     <TextView
         android:text="Graph"
         android:layout_width="wrap_content"
@@ -18,7 +27,8 @@
         android:layout_marginTop="0dp"
         android:id="@+id/textView"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000"/>
 
     <TextView
         android:text="X"
@@ -47,15 +57,6 @@
         android:layout_below="@+id/yText"
         android:layout_marginTop="14dp"
         android:layout_marginLeft="14dp" />
-
-    <com.jjoe64.graphview.GraphView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/zText"
-        android:id="@+id/graph"
-        android:layout_marginBottom="80dp"
-        />
-
 
     <Button
         android:layout_width="wrap_content"

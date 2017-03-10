@@ -17,4 +17,9 @@ public class runActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PostureActivity.class);
         startActivity(intent);
     }
+    public void intentBluetooth(View view) {
+        // loads posture activity
+        Intent intent = new Intent(this, DeviceListActivity.class);
+        startActivity(intent);
+    }
 }

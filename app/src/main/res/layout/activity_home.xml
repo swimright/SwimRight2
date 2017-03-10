@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
     <TextView
         android:text="MAIN MENU"
         android:layout_width="wrap_content"
@@ -14,6 +16,7 @@
         android:layout_marginTop="100dp"
         android:id="@+id/mainMenu"
         android:textSize="24sp"
+        android:textColor="#000000"
         android:textStyle="normal|bold" />
 
     <Button
@@ -21,19 +24,25 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_below="@+id/mainMenu"
-        android:layout_centerHorizontal="true"
         android:text="@string/button_profile"
         android:onClick="intentProfile"
-        android:id="@+id/buttonProfile" />
+        android:id="@+id/buttonProfile"
+        android:textColor="#000000"
+        android:background="#84ecd5"
+        android:layout_alignStart="@+id/mainMenu"
+        android:layout_alignEnd="@+id/mainMenu" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonProfile"
-        android:layout_centerHorizontal="true"
         android:text="@string/button_posture"
         android:onClick="intentPosture"
-        android:id="@+id/buttonPosture"/>
+        android:id="@+id/buttonPosture"
+        android:textColor="#000000"
+        android:background="#6ec9b4"
+        android:layout_alignStart="@+id/buttonProfile"
+        android:layout_alignEnd="@+id/buttonProfile" />
 
 
 
@@ -42,19 +51,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonPosture"
-        android:layout_centerHorizontal="true"
         android:text="@string/button_help"
         android:onClick="intentHelp"
-        android:id="@+id/buttonHelp"/>
+        android:id="@+id/buttonHelp"
+        android:textColor="#000000"
+        android:background="#57a392"
+        android:layout_alignStart="@+id/buttonPosture"
+        android:layout_alignEnd="@+id/buttonPosture" />
 
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonHelp"
-        android:layout_centerHorizontal="true"
         android:text="@string/button_graph"
         android:onClick="intentGraph"
-        android:id="@+id/buttonGraph"/>
+        android:id="@+id/buttonGraph"
+        android:textColor="#000000"
+        android:background="#498778"
+        android:layout_alignStart="@+id/buttonHelp"
+        android:layout_alignEnd="@+id/buttonHelp" />
 
 </RelativeLayout>

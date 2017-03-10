@@ -8,6 +8,8 @@
         android:layout_height="wrap_content"
         android:text="@string/button_main"
         android:id="@+id/buttonMain"
-        android:onClick="intentMain"/>
+        android:onClick="intentMain"
+        android:textColor="#000000"
+        android:background="#84f1d9"/>
 
 </LinearLayout>

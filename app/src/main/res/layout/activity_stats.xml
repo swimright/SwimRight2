@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="com.dack.alex.swimright.statsActivity">
 
     <TextView
@@ -16,29 +17,36 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/textView2"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000"/>
 
     <Button
         android:text="@string/button_DA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
         android:id="@+id/buttonDA"
         android:onClick="intentDA"
-        android:layout_marginTop="36dp"/>
+        android:layout_marginTop="32dp"
+        android:textColor="#000000"
+        android:background="#84ecd5"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 
     <Button
         android:text="@string/button_distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonDA"
-        android:layout_centerHorizontal="true"
         android:onClick="intentDist"
-        android:id="@+id/buttonDistance" />
+        android:id="@+id/buttonDistance"
+        android:textColor="#000000"
+        android:background="#6ec9b4"
+        android:layout_alignStart="@+id/buttonDA"
+        android:layout_alignEnd="@+id/buttonDA" />
 
     <Button
         android:layout_width="wrap_content"
@@ -47,6 +55,7 @@
         android:layout_centerHorizontal="true"
         android:text="@string/button_posture"
         android:id="@+id/buttonPosture"
-        android:onClick="intentPosture"/>
+        android:onClick="intentPosture"
+        android:textColor="#000000"/>
 
 </RelativeLayout>

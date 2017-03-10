@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="com.dack.alex.swimright.faqActivity">
     <TextView
         android:text="@string/button_faq"
@@ -18,7 +19,8 @@
         android:layout_marginTop="0dp"
         android:id="@+id/textView"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

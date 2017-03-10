@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="com.dack.alex.swimright.PostureActivity">
     <TextView
         android:text="@string/button_posture"
@@ -15,10 +16,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/postureMenu"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000" />
 
     <Button
         android:text="@string/button_run"
@@ -26,9 +28,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/postureMenu"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/runButton"
-        android:onClick="intentRun"/>
+        android:onClick="intentRun"
+        android:textColor="#000000"
+        android:background="#84ecd5"/>
 
     <Button
         android:text="@string/button_stats"
@@ -37,7 +41,9 @@
         android:id="@+id/statsButton"
         android:layout_below="@+id/runButton"
         android:layout_centerHorizontal="true"
-        android:onClick="intentStats"/>
+        android:onClick="intentStats"
+        android:textColor="#000000"
+        android:background="#6ec9b4"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -46,6 +52,6 @@
         android:layout_centerHorizontal="true"
         android:text="@string/button_main"
         android:id="@+id/buttonMain"
-        android:onClick="intentMain"/>
+        android:onClick="intentMain" />
 
 </RelativeLayout>

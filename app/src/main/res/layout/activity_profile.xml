@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="com.dack.alex.swimright.ProfileActivity">
 
     <TextView
@@ -16,10 +17,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/profileMenu"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000"/>
 
     <Button
         android:text="@string/button_logout"
@@ -27,9 +29,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/profileMenu"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/logoutButton"
-        android:onClick="intentLogout"/>
+        android:onClick="intentLogout"
+        android:textColor="#000000"
+        android:background="#84ecd5"/>
 
     <Button
         android:text="@string/button_senddata"
@@ -38,7 +42,9 @@
         android:id="@+id/statsButton"
         android:layout_below="@+id/logoutButton"
         android:layout_centerHorizontal="true"
-        android:onClick="intentSendData"/>
+        android:onClick="intentSendData"
+        android:textColor="#000000"
+        android:background="#6ec9b4"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -47,6 +53,7 @@
         android:layout_centerHorizontal="true"
         android:text="@string/button_main"
         android:id="@+id/buttonMain"
-        android:onClick="intentMain"/>
+        android:onClick="intentMain"
+        android:textColor="#000000"/>
 
 </RelativeLayout>
